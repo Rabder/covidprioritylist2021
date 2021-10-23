@@ -57,6 +57,4 @@ It would be a matter of tweaking each factor to obtain a desired result, which m
 In case the user wants to change each weight factor accordingly, he/she will have to change each of the coefficients in the punt variable.
 It is recommended to make sure that sum of each coefficient always equal 100.
 
-This was CS50.
-
 
