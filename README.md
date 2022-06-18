@@ -34,7 +34,7 @@ This central database contains the following:
     * Elderly population
     * Comorbidity rate
 
-The number of centers available per region is available on another database called "centros_dep".
+The number of health centers available per region is available on another database called "centros_dep".
 
 Afterwards, the program uses an algorithm to find the score for each region.
 Each variable is weighted on its impact and influence on a region's state during COVID-19.
@@ -46,7 +46,7 @@ The variables are weighted like this:
     * Elderly population (10%)
     * ICUs (5%)
 
-At first I thought about including vaccination progress, but I decided to skip it to use variables that predict the evolution of the pandemic in the region, such as comorbidity and elderly population.
+At first I thought about including vaccination progress, but I decided to skip it to use variables that can predict the evolution of the pandemic in the region, such as comorbidity and elderly population.
 
 Once that the algorithm finds the score for the region, it adds it to the region's dictionary.
 Then, the dictionary is added to the final list and the program returns a csv file with the region's rank and other data.
